@@ -1,0 +1,43 @@
+.bottle{
+    display: flex;
+    flex-direction: column-reverse;
+    height: 400px;
+    width: 150px;
+    border-left: 6px solid black;
+    border-right: 6px solid black;
+    border-bottom: 20px solid black;
+    border-top: 2px solid black;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+}
+.playsection{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: beige;
+}
+.btnsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+button{
+    padding: 10px;
+    width: 100px;
+    border:4px solid black;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+.remove{
+    background-color: white;
+    width: 150px;
+}
